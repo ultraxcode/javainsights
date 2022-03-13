@@ -22,6 +22,9 @@ public class datatypeexpressions {
         System.out.println( ++y *8);
         char ch = 'a';
         System.out.println(++ch);
+        char grade = 'B';
+        grade = (char)(grade + 8);
+        System.out.println(grade);
     }
 
 }
